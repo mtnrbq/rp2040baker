@@ -33,7 +33,8 @@
 				"ms-vscode.vscode-serial-monitor",
 				"marus25.cortex-debug",
 				"donjayamanne.python-environment-manager",
-				"circuitdojo.zephyr-tools"
+				"circuitdojo.zephyr-tools",
+				"trond-snekvik.devicetree"
 		]
 		}
 	}

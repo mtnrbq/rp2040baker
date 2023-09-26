@@ -1,0 +1,7 @@
+[manifest]
+path = rp2040baker.git
+file = west.yml
+
+[zephyr]
+base = zephyr
+
