@@ -2,12 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../../home/vscode/zephyrproject/zephyr/samples/drivers/led_ws2812"
-		},
-		{
-			"path": "../../home/vscode/zephyrproject"
 		}
 	],
 	"settings": {
@@ -15,7 +9,7 @@
 		"cmake.configureOnOpen": false,
 
 		// IntelliSense
-		"C_Cpp.default.compilerPath": "/opt/toolchains/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
+		"C_Cpp.default.compilerPath": "${userHome}/zephyr-sdk-0.16.3/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
 		"C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
 
 		// File Associations
@@ -31,8 +25,8 @@
 					"kind": "build",
 					"isDefault": true
 				},
-				// "command": "${userHome}/zephyrproject/.venv/bin/west",
-				"command": "/usr/local/bin/west",
+				"command": "${userHome}/zephyrproject/.venv/bin/west",
+				//"command": "/usr/local/bin/west",
 				"args": [
 					"build",
 					"-p",
