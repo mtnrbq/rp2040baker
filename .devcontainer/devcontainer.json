@@ -19,7 +19,8 @@
 	// "postCreateCommand": "uname -a",
 
     "mounts": [
-        "source=${localEnv:HOME}/zephyrout,target=/mnt/zephyrout,type=bind,consistency=cached"
+        "source=${localEnv:HOME}/zephyrout,target=/mnt/zephyrout,type=bind,consistency=cached",
+		"source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind"
     ],
 
 	// Configure tool-specific properties.
